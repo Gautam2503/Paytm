@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoDB = "mongodb+srv://ashok9818236898:sCYTAhSkShUhmZeM@cluster0.riwbhae.mongodb.net/Paytm"
+const mongoDB = "mongodb://gautamnaggn357:<password>@ac-ntgkvga-shard-00-00.p3ybjep.mongodb.net:27017,ac-ntgkvga-shard-00-01.p3ybjep.mongodb.net:27017,ac-ntgkvga-shard-00-02.p3ybjep.mongodb.net:27017/?replicaSet=atlas-13x2iq-shard-0&ssl=true&authSource=admin"
 
 mongoose.connect(mongoDB).then(() => console.log("connected to MongoDb successfully")).catch((err) => console.log(err));
 
